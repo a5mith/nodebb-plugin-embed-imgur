@@ -12,11 +12,11 @@
         if (!data || !data.postData || !data.postData.content) {
             return callback(null, data);
         }
-        if (data.postData.content.match(post)) {
-            data.postData.content = data.postData.content.replace(post, embedpost);
+        if (data.postData.content.match(embedpost)) {
+            data.postData.content = data.postData.content.replace(embedpost, post);
         }
-        if (data.postData.content.match(galleries)) {
-            data.postData.content = data.postData.content.replace(galleries, embedgallery);
+        if (data.postData.content.match(embedgallery)) {
+            data.postData.content = data.postData.content.replace(embedgallery, galleries);
         }
 
         callback(null, data);
