@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-embed-imgur",
+  "version": "0.0.1",
+    "nbbpm": {
+        "compatibility": "^0.6.0"
+    },
+  "description": "NodeBB Embed Imgur Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a5mith/nodebb-plugin-embed-imgur"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "imgur",
+    "custom",
+    "galleries"
+  ],
+  "author": {
+    "name": "a5mith",
+    "email": "35hzcommunity@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/a5mith/nodebb-plugin-embed-imgur/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-embed-imgur@0.0.1",
+  "_from": "nodebb-plugin-embed-imgur@~0.0.1"
+}

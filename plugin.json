@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-embed-imgur",
+	"name": "NodeBB Embed Imgur Plugin",
+	"description": "NodeBB Plugin that allows users to embed Imgur Galleries & Images inline in their posts.",
+	"url": "https://github.com/a5mith/nodebb-plugin-embed-imgur",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+	],
+	"staticDirs": {
+        "css": "./static"
+    }
+}
