@@ -3,7 +3,7 @@
     var Imgur = {},
         post = '<blockquote class="imgur-embed-pub" lang="en" data-id="$1"></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>',
         galleries = '<blockquote class="imgur-embed-pub" lang="en" data-id="a/$1"></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>'
-    var	embedgallery = /<a href="(?:https?:\/\/)?(?:imgur\.com)\/gallery\/?([\w\-_]+)">.+<\/a>/g;
+    var embedgallery = /<a href="(?:https?:\/\/)?(?:imgur\.com)\/(?:gallery|a)\/?([\w\-_]+)"[^>]*>[^<]+<\/a>/g;
     var	embedpost = /<a href="(?:https?:\/\/)?(?:imgur\.com)\/?([\w\-_]+)">.+<\/a>/g;
 
 
