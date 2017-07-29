@@ -1,8 +1,8 @@
 {
-  "name": "nodebb-plugin-embed-imgur",
-  "version": "0.0.1",
+  "name": "nodebb-plugin-embed-imgur-2",
+  "version": "0.0.2",
     "nbbpm": {
-        "compatibility": "^0.6.0"
+        "compatibility": "^1.0.0"
     },
   "description": "NodeBB Embed Imgur Plugin",
   "main": "library.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a5mith/nodebb-plugin-embed-imgur"
+    "url": "https://github.com/Fusselwurm/nodebb-plugin-embed-imgur"
   },
   "keywords": [
     "nodebb",
@@ -21,15 +21,17 @@
     "galleries"
   ],
   "author": {
+    "name": "Fusselwurm",
+    "email": "fusselwurm@gmail.com"
+  },
+  "contributors": [{
     "name": "a5mith",
     "email": "35hzcommunity@gmail.com"
-  },
+  }],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/a5mith/nodebb-plugin-embed-imgur/issues"
+    "url": "https://github.com/Fusselwurm/nodebb-plugin-embed-imgur/issues"
   },
   "readme": "",
-  "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-embed-imgur@0.0.1",
-  "_from": "nodebb-plugin-embed-imgur@~0.0.1"
+  "readmeFilename": "README.md"
 }
